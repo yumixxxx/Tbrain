@@ -6,7 +6,8 @@
 
 ### Data Preprocessing
 Result already store at Google Cloud
-step
+
+Step
 1. Unzip Training Dataset_v5.zip
 2. Separate images and labels
 3. Resize and Unsharp images
@@ -20,11 +21,11 @@ step
     </a>
 </div>
 
-run [Data_Preprocessing.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/Data_Preprocessing.ipynb "Title")
+Run [Data_Preprocessing.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/Data_Preprocessing.ipynb "Title")
 
 ### Detection
-* run [run.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/run.ipynb "Title")
-* for example:
+* Run [run.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/run.ipynb "Title")
+* For example:
  ``` shell
  !python detect.py --weights 'weights/yolov7-e6e_best.pt' --img-size 1280 --source 'custom_data/private_test' --save-txt --name 'private_test_detect' --augment --conf-thres 0.3 --iou-thres 0.4
  ```
@@ -33,12 +34,12 @@ run [Data_Preprocessing.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/Data
 Results are saved at Google Cloud [detection](https://drive.google.com/drive/folders/1tMzYBX8-s5xbdCj2s7YlJEoP64jrQ_rv?usp=sharing "Title")
  
 ### Training
-* train your custom data
-* run [run.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/run.ipynb "Title")
-* weights can be downloaded at [weight](https://drive.google.com/drive/folders/12qsqxV4p6yIXG5ov_XXaGYEdnPVKiGun?usp=sharing"Title")
+* Train your custom data
+* Run [run.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/run.ipynb "Title")
+* Weights can be downloaded at [weight](https://drive.google.com/drive/folders/12qsqxV4p6yIXG5ov_XXaGYEdnPVKiGun?usp=sharing"Title")
   * yolov7-e6e(pre-trained model)
   * yolov7-e6e_best(final model)
-* for example:
+* For example:
 ``` shell
 !python train_aux.py --batch-size 8 --data 'data/custom_data.yaml' --epochs 20 --img 1280 1280 --cfg 'cfg/yolov7-e6e.yaml' --weights 'weights/yolov7-e6e_best.pt' --hyp 'data/hyp.scratch.p6.yaml'
 ```
