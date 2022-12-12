@@ -5,8 +5,13 @@
 ```
 
 ### Data Preprocessing
+1. Unzip Training Dataset_v5.zip
+2. Separate training images and labels
+3. Resize and Unsharp training images.<br>
+ Use Albumentation, a python library for flexible image augmentations, with performing over 70 image transform operations.<br>
+ Can refer to Albumentation.ipynb
 
-## Detection
+### Detection
 * can refer to run.ipynb
 * for example:
  ``` shell
@@ -14,13 +19,8 @@
  ```
  After detection, the predict label is represented by six values `[class, x_center_norm, y_center_norm, width_norm, height_norm, confidence]`, where x_center, y_center, width and height are the normalized coordinates of the center of the bounding box.
  
- <div align="center">
-    <a href="./">
-        <img src="./figure/performance.png" width="79%"/>
-    </a>
-</div>
  
-## Training
+### Training
 * train custom data
 * can refer to run.ipynb
 * for example:
