@@ -5,7 +5,7 @@
 ```
 
 ### Data Preprocessing
-
+Result already store at 
 1. Unzip Training Dataset_v5.zip
 2. Separate images and labels
 3. Resize and Unsharp images
@@ -19,7 +19,7 @@
     </a>
 </div>
 
-run on colab [Albumentation.ipynb](http://markdown.tw/ "Title")
+run on colab [Data_Preprocessing.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/Data_Preprocessing.ipynb "Title")
 
 ### Detection
 * run on colab [run.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/run.ipynb "Title")
