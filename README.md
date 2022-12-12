@@ -9,7 +9,7 @@
 2. Separate training images and labels
 3. Resize and Unsharp training images.<br>
  Use Albumentation, a python library for flexible image augmentations, with performing over 70 image transform operations.<br>
- Can refer to Albumentation.ipynb
+ Can refer to [Albumentation.ipynb](http://markdown.tw/ "Title")
 
 ### Detection
 * can refer to run.ipynb
