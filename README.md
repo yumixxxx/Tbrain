@@ -24,7 +24,7 @@ Results are saved to [custom_data](https://github.com/yumixxxx/Tbrain/blob/main/
 ### Training
 * train your custom data
 * can refer to [run.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/run.ipynb "Title")
-* weight download [weight](https://drive.google.com/drive/u/2/folders/12qsqxV4p6yIXG5ov_XXaGYEdnPVKiGun"Title")
+* weight download [weight](https://drive.google.com/drive/folders/12qsqxV4p6yIXG5ov_XXaGYEdnPVKiGun?usp=sharing"Title")
 * for example:
 ``` shell
 !python train_aux.py --batch-size 8 --data 'data/custom_data.yaml' --epochs 20 --img 1280 1280 --cfg 'cfg/yolov7-e6e.yaml' --weights 'weights/yolov7-e6e_best.pt' --hyp 'data/hyp.scratch.p6.yaml'
