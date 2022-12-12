@@ -29,6 +29,12 @@ Run [Data_Preprocessing.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/Data
  ``` shell
  !python detect.py --weights 'weights/yolov7-e6e_best.pt' --img-size 1280 --source 'custom_data/private_test' --save-txt --name 'private_test_detect' --augment --conf-thres 0.3 --iou-thres 0.4
  ```
+  <div align="center">
+    <a href="./">
+        <img src="./figure/img1515.png" width="70%"/>
+       <img src="./figure/img1705.png" width="70%"/>
+    </a>
+</div>
  After detection, the predict label is represented by six values `[class, x_center_norm, y_center_norm, width_norm, height_norm, confidence]`, where x_center, y_center, width and height are the normalized coordinates of the center of the bounding box.
  
 Results are saved at Google Cloud [detection](https://drive.google.com/drive/folders/1tMzYBX8-s5xbdCj2s7YlJEoP64jrQ_rv?usp=sharing "Title")
