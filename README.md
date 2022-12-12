@@ -5,7 +5,7 @@
 ```
 
 ### Data Preprocessing
-Results are saved to [custom_data](https://github.com/yumixxxx/Tbrain/blob/main/run.ipynb "Title")
+
 1. Unzip Training Dataset_v5.zip
 2. Separate training images and labels
 3. Resize and Unsharp training images.<br>
@@ -26,11 +26,14 @@ Results are saved to [custom_data](https://github.com/yumixxxx/Tbrain/blob/main/
  ```
  After detection, the predict label is represented by six values `[class, x_center_norm, y_center_norm, width_norm, height_norm, confidence]`, where x_center, y_center, width and height are the normalized coordinates of the center of the bounding box.
  
+Results are saved at [detection](https://drive.google.com/drive/folders/1tMzYBX8-s5xbdCj2s7YlJEoP64jrQ_rv?usp=sharing "Title")
  
 ### Training
 * train your custom data
 * run on colab [run.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/run.ipynb "Title")
-* weight download at [weight](https://drive.google.com/drive/folders/12qsqxV4p6yIXG5ov_XXaGYEdnPVKiGun?usp=sharing"Title")
+* weights download at [weight](https://drive.google.com/drive/folders/12qsqxV4p6yIXG5ov_XXaGYEdnPVKiGun?usp=sharing"Title")
+  * yolov7-e6e(pre-trained model)
+  * yolov7-e6e_best(final model)
 * for example:
 ``` shell
 !python train_aux.py --batch-size 8 --data 'data/custom_data.yaml' --epochs 20 --img 1280 1280 --cfg 'cfg/yolov7-e6e.yaml' --weights 'weights/yolov7-e6e_best.pt' --hyp 'data/hyp.scratch.p6.yaml'
