@@ -21,7 +21,7 @@ Step
     </a>
 </div>
 
-Run [Data_Preprocessing.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/Data_Preprocessing.ipynb "Title")
+Code [Data_Preprocessing.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/Data_Preprocessing.ipynb "Title")
 
 ### Detection
 * Run [Execution.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/run.ipynb "Title")
@@ -53,5 +53,5 @@ Results are saved at Google Cloud [detection](https://drive.google.com/drive/fol
 ### Convert labels
 Convert the labels into demanded form, `[class, x_center, y_center, width, height, confidence]` to `[class, x_min, y_min, width, height]`, where x_min and y_min are coordinates of the top-left corner of the bounding box
 
-* Run [Restore Label.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/Restore_Label.ipynb "Title")
+* Code [Restore Label.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/Restore_Label.ipynb "Title")
 
