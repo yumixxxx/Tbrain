@@ -12,7 +12,7 @@
  Can refer to [Albumentation.ipynb](http://markdown.tw/ "Title")
 
 ### Detection
-* can refer to run.ipynb
+* can refer to [run.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/run.ipynb "Title")
 * for example:
  ``` shell
  !python detect.py --weights 'weights/yolov7-e6e_best.pt' --img-size 1280 --source 'custom_data/private_test' --save-txt --name 'private_test_detect' --augment --conf-thres 0.3 --iou-thres 0.4
