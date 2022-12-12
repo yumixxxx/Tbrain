@@ -24,7 +24,7 @@ Step
 Run [Data_Preprocessing.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/Data_Preprocessing.ipynb "Title")
 
 ### Detection
-* Run [run.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/run.ipynb "Title")
+* Run [Execution.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/run.ipynb "Title")
 * For example:
  ``` shell
  !python detect.py --weights 'weights/yolov7-e6e_best.pt' --img-size 1280 --source 'custom_data/private_test' --save-txt --name 'private_test_detect' --augment --conf-thres 0.3 --iou-thres 0.4
@@ -35,7 +35,7 @@ Results are saved at Google Cloud [detection](https://drive.google.com/drive/fol
  
 ### Training
 * Train your custom data
-* Run [run.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/run.ipynb "Title")
+* Run [Execution.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/run.ipynb "Title")
 * Weights can be downloaded at [weight](https://drive.google.com/drive/folders/12qsqxV4p6yIXG5ov_XXaGYEdnPVKiGun?usp=sharing"Title")
   * yolov7-e6e(pre-trained model)
   * yolov7-e6e_best(final model)
