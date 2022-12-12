@@ -10,7 +10,7 @@ Results are saved to [custom_data](https://github.com/yumixxxx/Tbrain/blob/main/
 2. Separate training images and labels
 3. Resize and Unsharp training images.<br>
  Use Albumentation, a python library for flexible image augmentations, with performing over 70 image transform operations.<br>
- Can refer to [Albumentation.ipynb](http://markdown.tw/ "Title")
+ run on colab [Albumentation.ipynb](http://markdown.tw/ "Title")
  
  <div align="center">
     <a href="./">
@@ -19,7 +19,7 @@ Results are saved to [custom_data](https://github.com/yumixxxx/Tbrain/blob/main/
 </div>
 
 ### Detection
-* can refer to [run.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/run.ipynb "Title")
+* run on colab [run.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/run.ipynb "Title")
 * for example:
  ``` shell
  !python detect.py --weights 'weights/yolov7-e6e_best.pt' --img-size 1280 --source 'custom_data/private_test' --save-txt --name 'private_test_detect' --augment --conf-thres 0.3 --iou-thres 0.4
@@ -29,7 +29,7 @@ Results are saved to [custom_data](https://github.com/yumixxxx/Tbrain/blob/main/
  
 ### Training
 * train your custom data
-* can refer to [run.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/run.ipynb "Title")
+* run on colab [run.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/run.ipynb "Title")
 * weight download at [weight](https://drive.google.com/drive/folders/12qsqxV4p6yIXG5ov_XXaGYEdnPVKiGun?usp=sharing"Title")
 * for example:
 ``` shell
