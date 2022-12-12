@@ -11,6 +11,12 @@ Results are saved to [custom_data](https://github.com/yumixxxx/Tbrain/blob/main/
 3. Resize and Unsharp training images.<br>
  Use Albumentation, a python library for flexible image augmentations, with performing over 70 image transform operations.<br>
  Can refer to [Albumentation.ipynb](http://markdown.tw/ "Title")
+ 
+ <div align="center">
+    <a href="./">
+        <img src="./figure/Albumentation.png" width="79%"/>
+    </a>
+</div>
 
 ### Detection
 * can refer to [run.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/run.ipynb "Title")
