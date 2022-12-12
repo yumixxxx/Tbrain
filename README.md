@@ -7,16 +7,19 @@
 ### Data Preprocessing
 
 1. Unzip Training Dataset_v5.zip
-2. Separate training images and labels
-3. Resize and Unsharp training images.<br>
- Use Albumentation, a python library for flexible image augmentations, with performing over 70 image transform operations.<br>
- run on colab [Albumentation.ipynb](http://markdown.tw/ "Title")
+2. Separate images and labels
+3. Resize and Unsharp images
+4. Convert the labels into demanded yolo form
+5. Separate training data and validation data.<br>
  
+ Use Albumentation to resize and unsharp images. It is a python library for flexible image augmentations, with performing over 70 image transform operations.<br>
  <div align="center">
     <a href="./">
         <img src="./figure/Albumentation.png" width="79%"/>
     </a>
 </div>
+
+run on colab [Albumentation.ipynb](http://markdown.tw/ "Title")
 
 ### Detection
 * run on colab [run.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/run.ipynb "Title")
@@ -31,7 +34,7 @@ Results are saved at [detection](https://drive.google.com/drive/folders/1tMzYBX8
 ### Training
 * train your custom data
 * run on colab [run.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/run.ipynb "Title")
-* weights download at [weight](https://drive.google.com/drive/folders/12qsqxV4p6yIXG5ov_XXaGYEdnPVKiGun?usp=sharing"Title")
+* weights can be downloaded at [weight](https://drive.google.com/drive/folders/12qsqxV4p6yIXG5ov_XXaGYEdnPVKiGun?usp=sharing"Title")
   * yolov7-e6e(pre-trained model)
   * yolov7-e6e_best(final model)
 * for example:
