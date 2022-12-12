@@ -34,6 +34,7 @@ Run [Data_Preprocessing.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/Data
         <img src="./figure/img1515.png" width="40%"/>&emsp;&emsp;&emsp;&emsp;<img src="./figure/img1705.png" width="40%"/>
     </a>
 </div>
+
  After detection, the predict label is represented by six values `[class, x_center_norm, y_center_norm, width_norm, height_norm, confidence]`, where x_center, y_center, width and height are the normalized coordinates of the center of the bounding box.
  
 Results are saved at Google Cloud [detection](https://drive.google.com/drive/folders/1tMzYBX8-s5xbdCj2s7YlJEoP64jrQ_rv?usp=sharing "Title")
