@@ -5,6 +5,7 @@
 ```
 
 ### Data Preprocessing
+Results are saved to [custom_data](https://github.com/yumixxxx/Tbrain/blob/main/run.ipynb "Title")
 1. Unzip Training Dataset_v5.zip
 2. Separate training images and labels
 3. Resize and Unsharp training images.<br>
@@ -21,8 +22,8 @@
  
  
 ### Training
-* train custom data
-* can refer to run.ipynb
+* train your custom data
+* can refer to [run.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/run.ipynb "Title")
 * for example:
 ``` shell
 !python train_aux.py --batch-size 8 --data 'data/custom_data.yaml' --epochs 20 --img 1280 1280 --cfg 'cfg/yolov7-e6e.yaml' --weights 'weights/yolov7-e6e_best.pt' --hyp 'data/hyp.scratch.p6.yaml'
