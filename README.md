@@ -21,7 +21,7 @@ Step
     </a>
 </div>
 
-Code [Data_Preprocessing.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/Data_Preprocessing.ipynb "Title")
+Code [Data Preprocessing.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/Data%20Preprocessing.ipynb "Title")
 
 ### Detection
 * Run [Execution.ipynb](https://github.com/yumixxxx/Tbrain/blob/main/Execution.ipynb "Title")
